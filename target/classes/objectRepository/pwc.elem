@@ -1,0 +1,12 @@
+#Context,             LogicalName,          DataType, ObjectName
+
+#pwcHomePage
+pwcHomePage, heading, xpath,  "//*[@id='wrapper']/header/div[1]/div/a[2]/img"
+pwcHomePage, featuredArticles,              css,  "li.flex.flex-active-slide > div"
+pwcHomePage, featuredArticlesText,          xpath,  ".//div[@class='inner']/h2"
+pwcHomePage, searchInput,         id,  "search-input"
+pwcHomePage, searchButton,        id,  "i.btr.bt-search"
+pwcHomePage, searchPage,          css,  "#wrapper > section.container.intro > div > div"
+pwcHomePage, articletable,         css,  "li.flex.flex-active-slide > div"
+
+

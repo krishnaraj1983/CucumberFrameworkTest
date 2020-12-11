@@ -1,0 +1,331 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9556028800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PWCStepDefinitions.setup_firefox()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login into account with correct details",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-details",
+        "after": [
+          {
+            "result": {
+              "duration": 36400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PWCStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2862266300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the PwCDigitalPulse website",
+            "match": {
+              "location": "PWCStepDefinitions.user_navigates_to_pwc_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141678600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am viewing the ‘Home’ page",
+            "match": {
+              "location": "PWCStepDefinitions.homePageHeading()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 475500300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am presented with a carousel displaying 3 featured articles",
+            "match": {
+              "location": "PWCStepDefinitions.displaying_3_featured_articles()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 659560700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicking the ‘Next’ button on the carousel will load the next 3 featured articles",
+            "match": {
+              "location": "PWCStepDefinitions.ClickOnNext()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 947268500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clicking the ‘Previous’ button on the carousel will load the previous 3 featured articles",
+            "match": {
+              "location": "PWCStepDefinitions.ClickOnPrevious()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8557719800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PWCStepDefinitions.setup_firefox()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login into account with correct details",
+        "description": "",
+        "id": "login-into-account;login-into-account-with-correct-details",
+        "after": [
+          {
+            "result": {
+              "duration": 274600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PWCStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2579889200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I navigate to the PwCDigitalPulse website",
+            "match": {
+              "location": "PWCStepDefinitions.user_navigates_to_pwc_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 352649000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on the ‘Magnifying glass’ icon to perform a search",
+            "match": {
+              "location": "PWCStepDefinitions.clickonButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122787300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the text \"Single page applications\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Single page applications",
+                  "offset": 18
+                }
+              ],
+              "location": "PWCStepDefinitions.enterValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77769200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I submit the search",
+            "match": {
+              "location": "PWCStepDefinitions.submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1389223600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am taken to the search results page",
+            "match": {
+              "location": "PWCStepDefinitions.searchResults()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13637400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am presented with at least 1 search result",
+            "match": {
+              "location": "PWCStepDefinitions.searchResult()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8378032600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PWCStepDefinitions.setup_firefox()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify the correct details",
+        "description": "",
+        "id": "login-into-account;verify-the-correct-details",
+        "after": [
+          {
+            "result": {
+              "duration": 27900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PWCStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2546768000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I navigate to the PwCDigitalPulse website",
+            "match": {
+              "location": "PWCStepDefinitions.user_navigates_to_pwc_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1418864600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I select ‘Contact us’ from the hamburger menu",
+            "match": {
+              "location": "PWCStepDefinitions.clickontheMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1145858200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am taken to the ‘Contact us’ page",
+            "match": {
+              "location": "PWCStepDefinitions.contactUsMenu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 227255000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am presented with the below options for contacts",
+            "match": {
+              "location": "PWCStepDefinitions.verifyContactDetails(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Heading",
+                  "Contact"
+                ],
+                "line": 24
+              },
+              {
+                "cells": [
+                  "PwC Digital Services",
+                  "https://digital.pwc.com/en/contact-us.html"
+                ],
+                "line": 25
+              },
+              {
+                "cells": [
+                  "Digital Pulse editorial team",
+                  ""
+                ],
+                "line": 26
+              },
+              {
+                "cells": [
+                  "Careers at PwC",
+                  "https://www.pwc.com/gx/en/careers.html"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "General enquiries",
+                  "https://www.pwc.com/gx/en.html"
+                ],
+                "line": 28
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login into account",
+    "description": "Existing stackoverflow user should be able to login into account using correct credentials",
+    "id": "login-into-account",
+    "keyword": "Feature",
+    "uri": "pwc.feature"
+  }
+]
